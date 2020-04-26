@@ -13,7 +13,7 @@
    ```sh
    python -m visual_lab
    ```
-4. Wait until finish.
+4. Wait until finished.
 
 ### TODO
 
