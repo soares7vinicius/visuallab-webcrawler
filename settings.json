@@ -1,0 +1,10 @@
+{
+  "clear_data_beforehand": true,
+  "login": {
+    "username": "",
+    "password": ""
+  },
+  "save_record_page": true,
+  "save_images": false,
+  "save_thermal_matrixes": true
+}
