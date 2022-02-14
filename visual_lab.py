@@ -61,7 +61,7 @@ class VisualLab:
             bs = BeautifulSoup(resp.text, "lxml")
 
             if self.settings["save_record_page"] is True:
-                with open(f"{patient_path}/record.html", "w") as fp:
+                with open(f"{patient_path}/record.html", "w", encoding="utf-8") as fp:
                     fp.write(resp.text)
 
             if self.settings["save_images"] is True:
